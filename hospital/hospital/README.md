@@ -21,8 +21,8 @@ O![image](https://github.com/baayaouiimane/TP2/assets/167249908/cffdfa07-55a7-4c
 On peut les voir dans la base de donnees :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/d452e31c-9ecf-4076-8440-76350ce9d5f7)
 On peut faire la meme chose avec le tableau medecin :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/706b099d-84d3-435c-9237-ac5f6e1714aa)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/25070c29-ad9e-4526-b472-1836fb684433)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/9c09a9dc-6b39-4e36-ad03-9c59fc41c4d1)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/eb0ca541-2395-415f-ac74-fa2f3bc55030)
 On peut créer un rendez-vous à partir d’un patient et un medecin déjà existe dans la base de données :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/08f4f665-5175-4b86-b8ae-5a57269f3ac0)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/e4b81542-02e0-4493-8618-71b0a884083d)
