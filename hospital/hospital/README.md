@@ -17,8 +17,9 @@ Ensuite on va créer les interfaces jpa repository :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/4bef5363-afe5-4da6-a917-f9283b811e30)
 On peut ajouter des patient au tableau patient comme suit :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/28bb942b-4fe2-4b9e-ba53-04180a73d257)
+O![image](https://github.com/baayaouiimane/TP2/assets/167249908/cffdfa07-55a7-4c31-9a9f-0d7caa7988e4)
 On peut les voir dans la base de donnees :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/9f6d09e9-da82-409e-a631-c989e79cd369)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/d452e31c-9ecf-4076-8440-76350ce9d5f7)
 On peut faire la meme chose avec le tableau medecin :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/706b099d-84d3-435c-9237-ac5f6e1714aa)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/25070c29-ad9e-4526-b472-1836fb684433)
