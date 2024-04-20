@@ -24,7 +24,7 @@ Donc si on veut ajouter des produits a notre base de données, on a créé une i
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8211893a-7869-454c-a993-cb6c95465140)
 Donc pour travailler avec mysql on doit changer dans les dépendances dans le code :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/cd63aff1-1165-4fee-8910-dc0cf60945c5)
-Donc maintenant si on exécute notre application on va utiliser la base de données sql :
+Donc maintenant si on exécute notre application on va utiliser la base de données mysql :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/aad33498-124f-4fac-8919-29b6d186a5e8)
 Maintenant si on veut ajouter d’autre fonction par exemple une fonction qui va chercher tous les produits dont son nom contient C : 
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/b283f739-12d0-43ba-b6ca-7e297eb7452e)
