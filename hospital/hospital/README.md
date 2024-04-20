@@ -9,7 +9,7 @@ Et une énumération :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/6f302552-14d6-4595-9b6f-3d60c9917293)
 Donc maintenant on peut generer notre base de donnees :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/6a362b84-e629-42a1-8044-b1e7d3327760)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/a6e6d392-cad3-4acf-8be9-045e96785ded)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/4ab4a01e-079f-4606-912d-ec91b856d555)
 Ensuite on va créer les interfaces jpa repository :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3de4be7c-6215-41d1-99d8-73bedd8b86d4)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/4f827e7c-bb65-4685-8314-e937528ee5cf)
