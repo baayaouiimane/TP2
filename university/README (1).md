@@ -3,7 +3,7 @@ On a créé un projet nommé university et dans ce dernier on a créé un packag
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d13c794-4589-48df-87fb-c25fb2febbb7)
 On a utilisé @Data pour générer les getters et setters :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/2cd9778d-159d-434c-b9f0-0559bbbee05e)
-Puis on a effectué une configuration dans application. properties :
+Puis on a effectué une configuration dans le fichier  application. properties :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/10c148ad-0806-4604-a880-d4ff8dd34cec)
 Si on veut se connecter à la base de données on va consulter Localhost :8085/h2-console :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/7414a874-1a6e-47a0-b6c1-b6dbd12630f3)
