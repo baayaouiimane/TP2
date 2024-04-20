@@ -1,54 +1,81 @@
-
 # University
 On a créé un projet nomme university et dans ce dernier on a créé un package entities avec une classe product :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/47caa6ac-0691-4c2d-8449-4fb1acb32707)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d13c794-4589-48df-87fb-c25fb2febbb7)
 On a utilisé @Data pour générer les getters et setters :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/29e65f1f-5384-4439-bd56-38522c0b1ed6)
-Puis on a effectué une configuration dans application .properties:
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/9831aed3-cce7-4f05-a5b7-edae86a26503)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/2cd9778d-159d-434c-b9f0-0559bbbee05e)
+Puis on a effectué une configuration dans application. properties :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/10c148ad-0806-4604-a880-d4ff8dd34cec)
 Si on veut se connecter à la base de données on va consulter Localhost :8085/h2-console :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/ed7ae8f2-634a-4bd8-a108-70f0bde87941)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/7414a874-1a6e-47a0-b6c1-b6dbd12630f3)
 Puis on va utiliser l’url qu’on a créé ici :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/0fcd81d8-d4aa-4583-9f4c-0d2850a70d56)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/ad00f84a-a297-4075-98c3-6f60f1ba4f93)
 Et on aura la page suivante ou on peut voir le tableau product avec les attributs :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/eeba228e-3b0a-4d3c-b8d0-a56773f274eb)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/ce9ec717-1bca-4800-a7b1-3c460c07fbff)
 Donc si on veut ajouter des produits a notre base de données, on a créé une interface appelée ProductRepository et on a ajoute dans la classe UniversityApplication les produits qu’on veut ajouter.
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/6fccf1c2-35ef-4614-a203-fcdb90a75ce5)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/c41f11d2-3300-461e-8824-ddb0b5c3bf81)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/4bf9cbfd-c11e-4daf-875a-da8bebef9f5d)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/8149fed4-70aa-4337-926c-5486794d0359)
  Et voici les produits sont ajoute dans la base de donnees :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/96a2a46b-ffb3-4b62-b67a-b0392115b8dc)
+ ![image](https://github.com/baayaouiimane/TP2/assets/167249908/d4dfccb0-1ccc-4b4f-af5f-e4fae403e7d7)
  Ensuite si on peut afficher les produits :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/e3027889-fed4-4ea7-987c-cc8261c65865)
+ ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d21fa99-4778-442f-9a0a-02cdd826e310)
  Et voici l’affichage de ces produits :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/56475523-5c67-4d79-b8e7-5a5f52fb22b8)
+ ![image](https://github.com/baayaouiimane/TP2/assets/167249908/f0ece784-feb7-44b9-8885-11c52f48440a)
  Dans ce qui precede on a travailler avec une base de donnees h2 , maintenant on va travailler avec une base de donnnees  mysql. Donc on va d’abord installer xampp :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/4934f43b-59ab-4fda-904e-c72b9d95b238)
- Donc pour travailler avec mysql on doit changer dans les dependances dans le code :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3c82f841-7424-4f0c-b78b-271211884475)
- Donc maintenant si on execute notre application on va utiliser la base de donnees sql :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/68700c08-ba95-4085-95ad-2f3453fe2b28)
- Maintenant si on veut ajouter d’autre fonction par exemple une fonction qui va chercher tous les produits dont son nom contient C : 
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/10657a09-dcf0-4859-84a1-66022f4ba6ea)
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/e3315b7c-845f-4965-a482-3916890494ca)
- Et donc l’affichage sera comme suit, il va nous afficher les les produits qui contient C :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/0fd560a1-4b7c-45d7-a871-9bee7f90f62b)
- Une autre methode a faire on va utiliser search :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8ebcb76f-f53f-45fd-9587-5c5ae8459071)
- Et bien sur on obtient  les memes resultats :
- ![image](https://github.com/baayaouiimane/TP2/assets/167249908/db6bb9fd-cae5-4b6f-aa09-76c72da7d982)
- 
-Un autre exemple,  cette fois ci si on veut chercher les prix  qui sont superieur a 3000 donc on va faire les etapes suivantes :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/185d73f5-f813-4a2e-91d7-e134a0f18571)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/2ff1ba38-71d2-46eb-9458-1be65de15b35)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/8211893a-7869-454c-a993-cb6c95465140)
+Donc pour travailler avec mysql on diot changer dans les dependances dans le code :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/cd63aff1-1165-4fee-8910-dc0cf60945c5)
+Donc maintenant si on execute notre application on va utiliser la base de donnees sql :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/aad33498-124f-4fac-8919-29b6d186a5e8)
+Maintenant si on veut ajouter d’autre fonction par exemple une fonction qui va chercher tous les produits dont son nom contient C : 
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/b283f739-12d0-43ba-b6ca-7e297eb7452e)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/8118d7aa-0eb7-442d-ae2a-2f7d2baf7085)
+Et donc l’affichage sera comme suit, il va nous afficher les les produits qui contient C :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/3878e817-31fe-41c2-80a3-5aa47ae71392)
+Une autre methode a faire on va utiliser search :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/7e6c9e6b-04e5-4ffd-bd6d-78ce8e73e3c3)
+Et bien sur il va nous donner les meme resultats :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/9dad9e4b-bd6f-406b-8980-706f0302082f)
+Un autre exemple, si on veut chercher les prix superieur a 3000 donc on va faire les etapes suivantes :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/b9e1af07-9447-44e9-b1bc-d30f8a4688b4)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/076c646f-70b8-409d-92ed-479f246dc403)
 Et voici l’affichage :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/ff409bd1-53f8-46f3-991d-82c9187bdfa2)
-On peut cree un web service , alors on a cree un package nomme web puis dans ce dernier on a cree une classe :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/149cef18-2d81-4dc0-afbd-e38743105924)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/1335755f-d1b4-4671-8cf0-75f0cf1cd5c0)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/6a69963f-c132-481e-ad75-607de23623c7)
+On peut creer un web service , alors on a cree un package nomme web puis dans ce dernier on a cree une classe :
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/b6444510-44a9-419c-8365-b18986f4b00c)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/44f01533-a87e-410c-b9b8-206f2b2ddba1)
 On peut avoir chaque produits on utlisons son id comme suit :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/bde3c076-856d-4706-ac77-d37b57595fb9)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/ae12f4da-6d19-4a85-abf7-79463533d25c)
 Par exemple le produit d’id 1 :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/3df9bcdc-b398-4f48-a86f-9c8747d79b32)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/88ddeb06-b7f4-4a17-918b-8ff31cd4cf24)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
