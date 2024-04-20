@@ -1,8 +1,8 @@
 
 # Hospital
 Dans ce tp on a créé un projet maven à partir du site start.spring.io , et dans ce projet on a créé un package entities qui contient les classes suivantes :
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/90bedc1f-ae99-443c-a6cd-70915c70f0b2)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/4c27f68e-081f-44cb-b702-9790e49ffbe2)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/979705e6-4332-4f90-9d9e-896d94eeebab)
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/1e1c4778-c57b-4194-8aee-aaa2964259f0)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/25c63102-4660-4606-975b-2fd80d2f08cc)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/6191bb53-a396-4b09-92e5-fa8d7364913c)
 Et une énumération :
