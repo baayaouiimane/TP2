@@ -14,17 +14,17 @@ Et on aura la page suivante ou on peut voir le tableau product avec les attribut
 Donc si on veut ajouter des produits a notre base de données, on a créé une interface appelée ProductRepository et on a ajoute dans la classe UniversityApplication les produits qu’on veut ajouter.
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/4bf9cbfd-c11e-4daf-875a-da8bebef9f5d)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8149fed4-70aa-4337-926c-5486794d0359)
- Et voici les produits sont ajoute dans la base de donnees :
+ Et voici les produits sont ajoute dans la base de données :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/d4dfccb0-1ccc-4b4f-af5f-e4fae403e7d7)
  Ensuite si on peut afficher les produits :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d21fa99-4778-442f-9a0a-02cdd826e310)
  Et voici l’affichage de ces produits :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/f0ece784-feb7-44b9-8885-11c52f48440a)
- Dans ce qui precede on a travaille avec une base de donnees h2 , maintenant on va basculer vers la base donnee  mysql. Donc on va d’abord installer xampp :
+ Dans ce qui precede on a travaillé avec une base de donnees h2 , maintenant on va basculer vers la base donnée  mysql. Donc on va d’abord installer xampp :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8211893a-7869-454c-a993-cb6c95465140)
-Donc pour travailler avec mysql on diot changer dans les dependances dans le code :
+Donc pour travailler avec mysql on doit changer dans les dépendances dans le code :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/cd63aff1-1165-4fee-8910-dc0cf60945c5)
-Donc maintenant si on execute notre application on va utiliser la base de donnees sql :
+Donc maintenant si on exécute notre application on va utiliser la base de données sql :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/aad33498-124f-4fac-8919-29b6d186a5e8)
 Maintenant si on veut ajouter d’autre fonction par exemple une fonction qui va chercher tous les produits dont son nom contient C : 
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/b283f739-12d0-43ba-b6ca-7e297eb7452e)
@@ -33,14 +33,14 @@ Et donc l’affichage sera comme suit, il va nous afficher les les produits qui 
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3878e817-31fe-41c2-80a3-5aa47ae71392)
 Une autre methode a faire on va utiliser search :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/7e6c9e6b-04e5-4ffd-bd6d-78ce8e73e3c3)
-Et bien sur il va nous donner les meme resultats :
+Et bien sur il va nous donner les meme résultats :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/9dad9e4b-bd6f-406b-8980-706f0302082f)
-Un autre exemple, si on veut chercher les prix superieur a 3000 donc on va faire les etapes suivantes :
+Un autre exemple, si on veut chercher les prix superieur a 3000 donc on va faire les étapes suivantes :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/b9e1af07-9447-44e9-b1bc-d30f8a4688b4)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/076c646f-70b8-409d-92ed-479f246dc403)
 Et voici l’affichage :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/6a69963f-c132-481e-ad75-607de23623c7)
-On peut creer un web service , alors on a cree un package nomme web puis dans ce dernier on a cree une classe :
+On peut créer un web service , alors on a crée un package nomme web puis dans ce dernier on a crée une classe :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/b6444510-44a9-419c-8365-b18986f4b00c)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/44f01533-a87e-410c-b9b8-206f2b2ddba1)
 On peut avoir chaque produits on utlisons son id comme suit :
