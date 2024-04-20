@@ -31,7 +31,7 @@ On peut faire la meme chose avec le tableau medecin :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/2d65ad91-6389-4e97-a206-21d20f278a59)
 On peut créer un rendez-vous à partir d’un patient et un medecin déjà existe dans la base de données :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/88153348-4b17-4289-943b-b918f0f906b9)
-![image](https://github.com/baayaouiimane/TP2/assets/167249908/1507747c-8761-4efc-9cec-e02c15b02344)
+
 On remarque que le status a la valeur 0, alors si on veut que le status soit string on va ajouter dans la classe rendezvous 
 @Enumerated(EnumType.STRING) :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/62271d8d-58d8-4e3c-a094-253fe36f77f7)
