@@ -1,5 +1,5 @@
 # University
-On a créé un projet nomme university et dans ce dernier on a créé un package entities avec une classe product :
+On a créé un projet nommé university et dans ce dernier on a créé un package entities avec une classe product :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d13c794-4589-48df-87fb-c25fb2febbb7)
 On a utilisé @Data pour générer les getters et setters :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/2cd9778d-159d-434c-b9f0-0559bbbee05e)
