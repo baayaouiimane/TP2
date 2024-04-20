@@ -14,7 +14,7 @@ Et on aura la page suivante ou on peut voir le tableau product avec les attribut
 Donc si on veut ajouter des produits a notre base de données, on a créé une interface appelée ProductRepository et on a ajoute dans la classe UniversityApplication les produits qu’on veut ajouter.
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/4bf9cbfd-c11e-4daf-875a-da8bebef9f5d)
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8149fed4-70aa-4337-926c-5486794d0359)
- Et voici les produits sont ajoute dans la base de données :
+ Et voici les produits sont ajoutés dans la base de données :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/d4dfccb0-1ccc-4b4f-af5f-e4fae403e7d7)
  Ensuite si on peut afficher les produits :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d21fa99-4778-442f-9a0a-02cdd826e310)
