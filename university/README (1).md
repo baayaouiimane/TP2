@@ -20,7 +20,7 @@ Donc si on veut ajouter des produits a notre base de données, on a créé une i
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/3d21fa99-4778-442f-9a0a-02cdd826e310)
  Et voici l’affichage de ces produits :
  ![image](https://github.com/baayaouiimane/TP2/assets/167249908/f0ece784-feb7-44b9-8885-11c52f48440a)
- Dans ce qui precede on a travailler avec une base de donnees h2 , maintenant on va travailler avec une base de donnnees  mysql. Donc on va d’abord installer xampp :
+ Dans ce qui precede on a travaille avec une base de donnees h2 , maintenant on vabasculer vers la base donnee  mysql. Donc on va d’abord installer xampp :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/8211893a-7869-454c-a993-cb6c95465140)
 Donc pour travailler avec mysql on diot changer dans les dependances dans le code :
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/cd63aff1-1165-4fee-8910-dc0cf60945c5)
