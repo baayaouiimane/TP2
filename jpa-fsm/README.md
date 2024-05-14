@@ -42,7 +42,34 @@ Et aussi faut changer dans le fichier application.properties :
 Par la suite on démarre xampp et on démarre l’application  et on remarque que sur mysql  existe quelques exceptions  car   quand il essaye de créer la base de donnée create table bein  il a trouvé un champ appelé desc qui représente un mot clé qui n’admet pas dans la structure de la base de donnée. Pour résoudre ce problème on doit  modifier  dans la classe Role en ajoutant une instruction :
 @Column(name= ‘DESCRIPTION ‘) comme il est présenté dans la capture d’écran ci-dessous. 
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/a9b64991-e5e0-4ffb-829b-2d0063b672a6)
-Ensuite en executant
+Ensuite en exécutant le code on aura le résultat suivant:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/cf419689-6334-4de7-b3a6-d53ecc895a59)
+Et par las uite on va consulter la base de donnée:users_db
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/ca262bbd-cdca-47c4-a420-6c056e0f7729)
+On a la table role:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/5c42496b-1140-4a59-af37-000e96a5e2ee)
+Et la table role_users:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/308b3cc6-148d-4c78-a0e9-9ba3f2e22886)
+Et la table users:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/1cc0951a-d42f-4753-9425-97f10331f3be)
+Ensuite on va ajouter un petit controle pour consulter les utilisateurs coté applications, on va commencer par creer un controlleur nommé UserController
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/a05fd007-687e-436f-a794-0fa0c937f53a)
+et on va ajouter une petite modification dans Role.java:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/fc367fe3-8ea0-48c9-9829-ec6d164445d4)
+En consultant le site localhost:8083/users/user1
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/07d4f6ee-e5b8-4eb4-b7e6-fcae4d40cddd)
+Et apres avoir apporter  une petite modification a User.java:
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/73bd98ed-7918-49d2-a56e-c404d4c0b2c6)
+En consultant le site localhost:8083/users/user1
+![image](https://github.com/baayaouiimane/TP2/assets/167249908/80c89a23-16d6-4413-b54e-a9f14aafbd71)
+
+
+
+
+
+
+
+
 
 
 
