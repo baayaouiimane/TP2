@@ -42,6 +42,7 @@ Et aussi faut changer dans le fichier application.properties :
 Par la suite on démarre xampp et on démarre l’application  et on remarque que sur mysql  existe quelques exceptions  car   quand il essaye de créer la base de donnée create table bein  il a trouvé un champ appelé desc qui représente un mot clé qui n’admet pas dans la structure de la base de donnée. Pour résoudre ce problème on doit  modifier  dans la classe Role en ajoutant une instruction :
 @Column(name= ‘DESCRIPTION ‘) comme il est présenté dans la capture d’écran ci-dessous. 
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/a9b64991-e5e0-4ffb-829b-2d0063b672a6)
+Ensuite en executant
 
 
 
