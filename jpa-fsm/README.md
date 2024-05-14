@@ -44,7 +44,7 @@ Par la suite on démarre xampp et on démarre l’application  et on remarque qu
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/a9b64991-e5e0-4ffb-829b-2d0063b672a6)
 Ensuite en exécutant le code on aura le résultat suivant:
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/cf419689-6334-4de7-b3a6-d53ecc895a59)
-Et par las uite on va consulter la base de donnée:users_db
+Et par la suite on va consulter la base de donnée:users_db
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/ca262bbd-cdca-47c4-a420-6c056e0f7729)
 On a la table role:
 ![image](https://github.com/baayaouiimane/TP2/assets/167249908/5c42496b-1140-4a59-af37-000e96a5e2ee)
